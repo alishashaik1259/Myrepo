@@ -1,0 +1,49 @@
+Datatypes
+Strings
+In Slicing the last index value[0:9] that is 9 is not included, means it is upto 9(not including 9th position in string)--- you can't use indexing to change individual elements of a string
+Stringd are Immutable. Cant assign a new value to each index.----instead we can concat strings.
+
+print('Python {}'.format('rules!'))=> Python rules!
+
+
+lists 
+lists are mutable
+
+append
+pop--basically remove the end value in a list.
+sort
+reverse
+
+Dictionaries
+Dictionaries are unordered and cant be sorted.
+Dictionaries are mutable.
+keys, values, items(tuples).
+
+
+Tuples
+Tuples are immutable(values cant be changed).
+similar to lists. lists use [], but tuples use(). 
+have very less methods when compared to lists
+count
+index
+
+Sets
+unorderd collection of unique elements.
+{}
+.add()
+
+Booleans
+True or False
+--------------------------------------------------------------------------------------------------------
+
+Files
+in python notebook to write a text file syntax is %%writefile filename.txt
+.read()
+
+inorder to read file multiple times , we need to reset the cursor to the start of the string, that can be done using 
+.seek(0)
+.readlines() ---to read the lines individually (as it is in the file, instead of single giant sentence with \n)
+
+in order to open a file which is in an another path other than jupyter notebook, we should provide entire path.
+myfile=open("C:\\path\\path\\path.txt")----backward slashes
+filename.close() to close a file in order to avoid errors.
